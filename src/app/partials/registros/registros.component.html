@@ -1,1 +1,14 @@
-<p>registros works!</p>
+<div *ngFor="let pago of pagos" class="container">
+  <div>
+    {{pago.Nombre}}
+  </div>
+  <div>
+    {{pago.Edificio}}
+    {{pago.MontoDepositado}}
+    {{pago.Motivo}}
+  </div>
+
+
+</div>
+
+{{total}}
